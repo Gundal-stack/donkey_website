@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgb(243, 202, 140);
+    text-align: center;
 }
 h1{
     display: flex;
