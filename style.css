@@ -1,9 +1,19 @@
 .button1{
-    height:200px;
+    height:37000px;
     width:200px;
     display: flex;
     justify-content: center;
 }
 body{
     background-color: blanchedalmond;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    height: 650px;
 }
