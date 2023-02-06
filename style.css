@@ -3,10 +3,12 @@
     width:200px;
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 body{
     background-color: rgb(243, 202, 140);
     text-align: center;
+    align-items: center;
 }
 h1{
     display: flex;
