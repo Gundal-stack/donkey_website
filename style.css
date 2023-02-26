@@ -1,3 +1,33 @@
+header {
+    background-color: rgb(167, 137, 92);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 2;}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;} 
+li {
+    margin: 0 10px;}
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 70px;
+    transition: all 0.2s ease-in-out;}
+a:hover {
+    color: #000;}  
 .button1{
     height:47px;
     width:200px;
@@ -5,19 +35,44 @@
     justify-content: center;
     align-self: center;
     font-size: 26;
-}
+    background-color: rgb(107, 156, 15);
+    text-align: center;
+    border: 1px;
+    vertical-align: middle;
+    line-height: 47px;
+    width: 200px;
+    border-radius: 4px;}
 body{
     background-color: rgb(243, 202, 140);
     text-align: center;
-    align-items: center;
-}
+    align-items: center;}
 h1{
     display: flex;
     justify-content: center;
-    font-size: 50;
-}
+    font-size: 50;}
 .result{
     display: flex;
     justify-content: center;
-    height: 650px;
-}
+    /*width: 775px; */
+    height: 590px;}
+.left, .right {
+    position: absolute;
+    top: 0;
+    height: 100vh; /* 100% Höhe des Viewports */
+    width: 20%; /* 25% Breite */
+    background-color: rgb(243, 202, 140)}
+.left {
+    left: 0;}
+.right {
+    right: 0;}
+.middle {
+    position: relative;
+    z-index: 1; /* Stellen Sie den höchsten Wert ein */
+    /*height: 100vh;*/
+    width: 60%;
+    margin: 0 auto; /* Zentrieren Sie horizontal */
+    background-color: rgb(194, 159, 106);
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+  
